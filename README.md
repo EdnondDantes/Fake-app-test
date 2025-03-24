@@ -1,12 +1,30 @@
-# React + Vite
+# Интернет-магазин электроники
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Онлайн-каталог товаров с функциональностью корзины покупок. Проект использует FakeStore API для получения данных о товарах.
 
-Currently, two official plugins are available:
+**Демо:** [https://fake-app-test.vercel.app/](https://fake-app-test.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Особенности
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 📦 Просмотр товаров с категориями
+- 🔍 Фильтрация по категориям и поиск по названию
+- 🛒 Добавление/удаление товаров в корзине
+- 💾 Сохранение корзины в localStorage
+- 🛡️ Обработка ошибок и Error Boundary
+- ⚡ Оптимизация производительности (мемоизация, дебаунс)
+
+## Технологии
+
+- React 18
+- React Router 6
+- Material-UI 5
+- Context API
+- Axios
+- LocalStorage
+
+## Установка и запуск
+
+1. Клонируйте репозиторий:
+```bash
+git clone https://github.com/your-username/your-repo.git
