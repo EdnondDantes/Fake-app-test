@@ -25,15 +25,14 @@
 
 ## Установка и запуск
 
-1. Клонируйте репозиторий:
-```bash
-git clone https://github.com/your-username/your-repo.git
+### 1. Клонируйте репозиторий
+git clone https://github.com/EdnondDantes/Fake-app-test.git
 
-2. Установите зависимости:
-```bash
+### 2. Установите зависимости
 npm install
 
-3. Запустите приложение:
-```bash
+### 3. Запустите приложение
 npm run dev
+
+
 
