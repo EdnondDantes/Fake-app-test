@@ -28,3 +28,12 @@
 1. Клонируйте репозиторий:
 ```bash
 git clone https://github.com/your-username/your-repo.git
+
+2. Установите зависимости:
+```bash
+npm install
+
+3. Запустите приложение:
+```bash
+npm run dev
+
